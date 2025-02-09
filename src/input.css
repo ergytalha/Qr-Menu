@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.product-image img {
+    height: 60vh;
+    object-fit: cover;
+    width: -webkit-fill-available;
+}
+
+@media screen and (max-width: 768px) {
+    .product-image img {
+        height: 40vh;
+    }
+    
+}
